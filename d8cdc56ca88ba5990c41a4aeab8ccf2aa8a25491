@@ -2,3 +2,29 @@ BUILD: openscad-2019.05-3105-gd8cdc56ca
 system: 42510
 date: Thu Oct 24 09:15:54 PM CEST 2024
 tasks: configure build[failed]
+FAILED:
+-- Use built-in OpenCSG:  OFF
+-- CSG node id-prefix:    OFF
+-- Offline documentation: OFF
+--
+-- GL Offscreen Context:  Unix EGL GLX
+--
+-- Input Drivers
+-- - HID API Driver (disabled)
+-- - Space Navigator Library Driver (disabled)
+-- - Joystick Driver (enabled)
+-- - DBus Remote Driver (enabled)
+--
+-- DEFINES = ENABLE_EXPERIMENTAL;_REENTRANT;UNICODE;_UNICODE;_USE_MATH_DEFINES;USE_MIMALLOC;MI_OVERRIDE;MI_LINK_STATIC;EIGEN_DONT_ALIGN;ENABLE_OPENCSG;OPENCSG_GLEW;ENABLE_CGAL;CGAL_DEBUG;CGAL_USE_GMPXX;ENABLE_LIBZIP;ENABLE_CAIRO;USE_GLEW;ENABLE_DBUS;OPENSCAD_VERSION=2024.10.24;OPENSCAD_SHORTVERSION=2024.10.24;OPENSCAD_YEAR=2024;OPENSCAD_MONTH=10;OPENSCAD_DAY=24;STACKSIZE=8388608;OPENSCAD_OS="Unix";ENABLE_EGL;GLEW_EGL;ENABLE_GLX;ENABLE_JOYSTICK;ENABLE_MANIFOLD
+-- LINK OPTIONS = -v
+--
+-- Configuring done (38.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/rschiele/openscad/build
++ GIT_EDITOR='sed -i -e '\''s/^\(tasks:.*\)\(\[incomplete\]\)$/\1 build\2/'\'''
++ git notes --ref build edit d8cdc56ca88ba5990c41a4aeab8ccf2aa8a25491
+++ nproc
++ make -C ../build/ -j 16
+make: Entering directory '/home/rschiele/openscad'
+make: *** ../build/: No such file or directory.  Stop.
+make: Leaving directory '/home/rschiele/openscad'
