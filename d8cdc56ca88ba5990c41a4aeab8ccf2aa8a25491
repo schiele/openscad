@@ -32,4 +32,4 @@ make: Leaving directory '/home/rschiele/openscad'
 BUILD: openscad-2019.05-3105-gd8cdc56ca
 system: 42510
 date: Thu Oct 24 09:17:36 PM CEST 2024
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
