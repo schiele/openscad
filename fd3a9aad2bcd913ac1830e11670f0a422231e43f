@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3120-gfd3a9aad2
 system: 42540
 date: Mon Nov  4 05:18:57 AM CET 2024
-tasks:[incomplete]
+tasks: configure[incomplete]
