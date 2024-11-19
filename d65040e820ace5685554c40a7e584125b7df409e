@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3128-gd65040e82
 system: 42630
 date: Tue Nov 19 08:43:46 AM CET 2024
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
