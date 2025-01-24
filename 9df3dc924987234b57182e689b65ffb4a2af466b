@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3245-g9df3dc924
 system: 42910
 date: Fri Jan 24 09:17:41 PM CET 2025
-tasks: configure build install[incomplete]
+tasks: configure build install
