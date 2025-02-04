@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3258-gdd7286bf8
 system: 42920
 date: Tue Feb  4 09:12:19 PM CET 2025
-tasks: configure build install[incomplete]
+tasks: configure build install
