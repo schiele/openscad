@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3270-g48c04246a
 system: 42950
 date: Mon Feb 10 06:49:46 AM CET 2025
-tasks:[incomplete]
+tasks: configure[incomplete]
