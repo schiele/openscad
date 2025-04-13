@@ -26,3 +26,6 @@ CMake Error at CMakeLists.txt:608 (find_package):
 -- Configuring incomplete, errors occurred!
 ======================================================================
 BUILD: openscad-2019.05-3380-g4ed252ff4
+system: rolling
+date: Sun Apr 13 07:24:04 PM CEST 2025
+tasks:[incomplete]
