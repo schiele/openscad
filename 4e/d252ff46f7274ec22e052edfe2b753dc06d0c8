@@ -56,3 +56,28 @@ BUILD: openscad-2019.05-3380-g4ed252ff4
 system: rolling
 date: Sun Apr 13 07:24:55 PM CEST 2025
 tasks: configure[failed]
+FAILED:
+-- LibXml2: 2.13.7
+-- HidAPI: 0.14.0
+-- SpNav: found
+-- CAIRO_INCLUDEDIR: /usr/include
+-- CAIRO_INCLUDE_DIRS: /usr/include/cairo;/usr/include;/usr/include/freetype2;/usr/include/libpng16;/usr/include/harfbuzz;/usr/include/glib-2.0;/usr/lib/glib-2.0/include;/usr/include/sysprof-6;/usr/include/pixman-1
+-- CAIRO_LIBRARIES: cairo
+-- Cairo: 1.18.4
+-- Flex: 2.6.4
+-- Bison: 3.8.2
+-- Found Lib3MF: 3mf;zip;z (found version "2.3.2")
+-- lib3mf: 2.3.2
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Qt6: 6.9.0
+CMake Error at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:227 (message):
+  Could NOT find Qt6QScintilla (missing: QT6QSCINTILLA_LIBRARY
+  QT6QSCINTILLA_INCLUDE_DIR) (Required is at least version "2.8.0")
+Call Stack (most recent call first):
+  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:591 (_FPHSA_FAILURE_MESSAGE)
+  cmake/Modules/FindQt6QScintilla.cmake:112 (find_package_handle_standard_args)
+  CMakeLists.txt:615 (find_package)
+
+-- Configuring incomplete, errors occurred!
