@@ -29,3 +29,25 @@ BUILD: openscad-2019.05-3380-g4ed252ff4
 system: rolling
 date: Sun Apr 13 07:24:04 PM CEST 2025
 tasks: configure[failed]
+FAILED:
+-- Found OpenGL: /usr/lib/libOpenGL.so
+CMake Error at CMakeLists.txt:608 (find_package):
+  Found package configuration file:
+
+    /usr/lib/cmake/Qt6/Qt6Config.cmake
+
+  but it set Qt6_FOUND to FALSE so package "Qt6" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  Failed to find required Qt component "Multimedia".
+
+  Expected Config file at
+  "/usr/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake" does NOT exist
+
+  Configuring with --debug-find-pkg=Qt6Multimedia might reveal details why
+  the package was not found.
+
+  Configuring with -DQT_DEBUG_FIND_PACKAGE=ON will print the values of some
+  of the path variables that find_package uses to try and find the package.
+
+-- Configuring incomplete, errors occurred!
