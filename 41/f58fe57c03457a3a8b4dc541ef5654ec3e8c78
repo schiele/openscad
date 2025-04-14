@@ -1,4 +1,4 @@
 BUILD: openscad-2021.01
 system: rolling
 date: Mon Apr 14 11:01:37 PM CEST 2025
-tasks: configure[incomplete]
+tasks: configure[failed]
