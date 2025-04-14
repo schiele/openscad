@@ -2,3 +2,17 @@ BUILD: openscad-2021.01
 system: rolling
 date: Mon Apr 14 11:01:37 PM CEST 2025
 tasks: configure[failed]
+FAILED:
++ GIT_EDITOR='sed -i -e '\''s/^\(tasks:.*\)\(\[incomplete\]\)$/\1 configure\2/'\'''
++ git notes --ref build edit 41f58fe57c03457a3a8b4dc541ef5654ec3e8c78
++ cmake -DEXPERIMENTAL=1 -DCMAKE_INSTALL_PREFIX=/home/rschiele/tools/openscad/openscad-2021.01 -DUSE_QT6=1 -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -S . -B build/
+CMake Error at CMakeLists.txt:17 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+-- Configuring incomplete, errors occurred!
