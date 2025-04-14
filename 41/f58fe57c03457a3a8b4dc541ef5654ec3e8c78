@@ -16,3 +16,5 @@ CMake Error at CMakeLists.txt:17 (cmake_minimum_required):
   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
 
 -- Configuring incomplete, errors occurred!
+======================================================================
+BUILD: openscad-2021.01
