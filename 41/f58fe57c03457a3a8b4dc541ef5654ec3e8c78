@@ -18,3 +18,6 @@ CMake Error at CMakeLists.txt:17 (cmake_minimum_required):
 -- Configuring incomplete, errors occurred!
 ======================================================================
 BUILD: openscad-2021.01
+system: rolling
+date: Mon Apr 14 11:02:28 PM CEST 2025
+tasks:[incomplete]
