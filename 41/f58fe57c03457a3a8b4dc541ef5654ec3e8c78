@@ -21,3 +21,29 @@ BUILD: openscad-2021.01
 system: rolling
 date: Mon Apr 14 11:02:28 PM CEST 2025
 tasks: configure build[failed]
+FAILED:
+                 from /usr/include/CGAL/Boolean_set_operations_2.h:21,
+                 from /usr/include/CGAL/Minkowski_sum_2/Minkowski_sum_decomp_2.h:21,
+                 from /usr/include/CGAL/minkowski_sum_2.h:24,
+                 from /home/rschiele/git/openscad/src/cgal.h:23,
+                 from /home/rschiele/git/openscad/src/CGAL_Nef_polyhedron.h:4,
+                 from /home/rschiele/git/openscad/src/openscad.cc:57:
+/usr/include/boost/range/join.hpp:66:1: note: candidate: ‘boost::range::joined_range<const SinglePassRange1, const SinglePassRange2> boost::range::join(const SinglePassRange1&, const SinglePassRange2&) [with SinglePassRange1 = std::__cxx11::list<std::__cxx11::basic_string<char> >; SinglePassRange2 = char [2]]’
+   66 | join(const SinglePassRange1& r1, const SinglePassRange2& r2)
+      | ^~~~
+/home/rschiele/git/openscad/src/openscad.cc: In function ‘int main(int, char**)’:
+/home/rschiele/git/openscad/src/openscad.cc:967: error: call of overloaded ‘join(const std::vector<std::__cxx11::basic_string<char> >, const char [4])’ is ambiguous
+  967 |                 ("view", po::value<CommaSeparatedVector>(), ("=view options: " + boost::join(viewOptions.names(), " | ")).c_str())
+/usr/include/boost/algorithm/string/join.hpp:46:9: note: candidate: ‘typename boost::range_value<T>::type boost::algorithm::join(const SequenceSequenceT&, const Range1T&) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; Range1T = char [4]; typename boost::range_value<T>::type = std::__cxx11::basic_string<char>]’
+   46 |         join(
+      |         ^~~~
+/usr/include/boost/range/join.hpp:76:1: note: candidate: ‘boost::range::joined_range<SinglePassRange1, SinglePassRange2> boost::range::join(SinglePassRange1&, SinglePassRange2&) [with SinglePassRange1 = const std::vector<std::__cxx11::basic_string<char> >; SinglePassRange2 = const char [4]]’
+   76 | join(SinglePassRange1& r1, SinglePassRange2& r2)
+      | ^~~~
+/usr/include/boost/range/join.hpp:66:1: note: candidate: ‘boost::range::joined_range<const SinglePassRange1, const SinglePassRange2> boost::range::join(const SinglePassRange1&, const SinglePassRange2&) [with SinglePassRange1 = std::vector<std::__cxx11::basic_string<char> >; SinglePassRange2 = char [4]]’
+   66 | join(const SinglePassRange1& r1, const SinglePassRange2& r2)
+      | ^~~~
+make[2]: *** [CMakeFiles/OpenSCAD.dir/build.make:268: CMakeFiles/OpenSCAD.dir/src/openscad.cc.o] Error 1
+[ 16%] Building CXX object CMakeFiles/OpenSCAD.dir/src/export_amf.cc.o
+make[1]: *** [CMakeFiles/Makefile2:115: CMakeFiles/OpenSCAD.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
