@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3400-g535d96fe2
 system: rolling
 date: Tue Apr 29 05:21:36 PM CEST 2025
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
