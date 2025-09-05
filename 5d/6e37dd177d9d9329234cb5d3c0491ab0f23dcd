@@ -3,3 +3,5 @@ system: rolling
 date: Thu Sep  4 10:14:25 PM CEST 2025
 tasks: configure build install
 SUCCESS
+======================================================================
+BUILD: openscad-2019.05-3577-g5d6e37dd1-debug
