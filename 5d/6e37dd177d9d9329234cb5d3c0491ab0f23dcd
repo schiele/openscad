@@ -7,4 +7,4 @@ SUCCESS
 BUILD: openscad-2019.05-3577-g5d6e37dd1-debug
 system: rolling
 date: Fri Sep  5 07:55:38 AM CEST 2025
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
