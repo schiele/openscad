@@ -2,3 +2,4 @@ BUILD: openscad-2019.05-3646-g57f690a53
 system: rolling
 date: Thu Oct  9 12:31:11 PM CEST 2025
 tasks: configure build install
+SUCCESS
