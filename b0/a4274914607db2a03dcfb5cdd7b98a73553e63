@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3682-gb0a427491
 system: rolling
 date: Mon Nov 10 07:48:35 AM CET 2025
-tasks: configure build[incomplete]
+tasks: configure build install[incomplete]
