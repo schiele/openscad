@@ -2,3 +2,28 @@ BUILD: openscad-2019.05-3726-g6ed120f28
 system: rolling
 date: Thu Dec 18 02:38:37 AM CET 2025
 tasks: configure[failed]
+FAILED:
+-- Boost include dirs: /usr/include
+-- Boost libraries:
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Using gcc version 4 or later. Adding -frounding-math
+-- CGAL: 6.1.0
+-- CGAL: Using target CGAL::CGAL CGAL::CGAL_Core
+-- libzip: 1.11.4
+-- Freetype: 2.14.1
+-- LibXml2: 2.15.1
+-- HidAPI: 0.15.0
+-- SpNav: found
+-- Cairo: 1.18.4
+-- Flex: 2.6.4
+-- Bison: 3.8.2
+CMake Error at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:290 (message):
+  Could NOT find Lib3MF (missing: Lib3MF_INCLUDE_DIRS)
+Call Stack (most recent call first):
+  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:654 (_FPHSA_FAILURE_MESSAGE)
+  cmake/Modules/FindLib3MF.cmake:58 (find_package_handle_standard_args)
+  CMakeLists.txt:719 (find_package)
+
+-- Configuring incomplete, errors occurred!
