@@ -31,4 +31,4 @@ Call Stack (most recent call first):
 BUILD: openscad-2019.05-3726-g6ed120f28
 system: rolling
 date: Thu Dec 18 03:50:31 AM CET 2025
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
