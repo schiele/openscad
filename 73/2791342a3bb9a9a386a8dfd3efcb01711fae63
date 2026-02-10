@@ -28,3 +28,5 @@ make[2]: *** Waiting for unfinished jobs....
 [ 93%] Building CXX object CMakeFiles/OpenSCADLibInternal.dir/src/gui/input/DBusInputDriver.cc.o
 make[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/OpenSCADLibInternal.dir/all] Error 2
 make: *** [Makefile:166: all] Error 2
+======================================================================
+BUILD: openscad-2019.05-3842-g732791342
