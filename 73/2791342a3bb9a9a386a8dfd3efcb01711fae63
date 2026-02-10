@@ -32,4 +32,4 @@ make: *** [Makefile:166: all] Error 2
 BUILD: openscad-2019.05-3842-g732791342
 system: rolling
 date: Tue Feb 10 07:19:58 PM CET 2026
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
