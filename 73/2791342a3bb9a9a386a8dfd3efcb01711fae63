@@ -33,3 +33,29 @@ BUILD: openscad-2019.05-3842-g732791342
 system: rolling
 date: Tue Feb 10 07:19:58 PM CET 2026
 tasks: configure build[failed]
+FAILED:
+/usr/include/qt6/QtGui/qcursor.h:61:9: error: expected unqualified-id before numeric constant
+   61 |     Qt::CursorShape shape() const;
+      |         ^~~~~~~~~~~
+/usr/include/qt6/QtGui/qcursor.h:62:23: error: expected identifier before numeric constant
+   62 |     void setShape(Qt::CursorShape newShape);
+      |                       ^~~~~~~~~~~
+/usr/include/qt6/QtGui/qcursor.h:62:23: error: expected ‘,’ or ‘...’ before numeric constant
+/usr/include/qt6/QtWidgets/qwidget.h:665:16: error: ‘QEvent’ is not a type
+  665 |     bool event(QEvent *event) override;
+      |                ^~~~~~
+/usr/include/qt6/QtWidgets/qwidget.h:678:29: error: ‘QEvent’ is not a type
+  678 |     virtual void leaveEvent(QEvent *event);
+      |                             ^~~~~~
+/usr/include/qt6/QtWidgets/qwidget.h:706:30: error: ‘QEvent’ is not a type
+  706 |     virtual void changeEvent(QEvent *);
+      |                              ^~~~~~
+/usr/include/qt6/QtWidgets/qwidget.h:715:13: error: ‘QVariant’ does not name a type
+  715 |     virtual QVariant inputMethodQuery(Qt::InputMethodQuery) const;
+      |             ^~~~~~~~
+/usr/include/qt6/QtWidgets/qwidget.h:665:10: error: ‘bool QWidget::event(int*)’ marked ‘override’, but does not override
+  665 |     bool event(QEvent *event) override;
+      |          ^~~~~
+make[2]: *** [CMakeFiles/OpenSCADLibInternal.dir/build.make:3654: CMakeFiles/OpenSCADLibInternal.dir/src/gui/input/SpaceNavInputDriver.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/OpenSCADLibInternal.dir/all] Error 2
+make: *** [Makefile:166: all] Error 2
