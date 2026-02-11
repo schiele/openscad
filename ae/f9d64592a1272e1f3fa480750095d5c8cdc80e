@@ -2,3 +2,29 @@ BUILD: openscad-2019.05-3854-gaef9d6459
 system: rolling
 date: Wed Feb 11 08:46:02 AM CET 2026
 tasks: configure build[failed]
+FAILED:
+/usr/include/qt6/QtCore/qcoreevent.h:397:36: error: ‘type’ was not declared in this scope; did you mean ‘Type’?
+  397 |     bool polished() const { return type() == ChildPolished; }
+      |                                    ^~~~
+      |                                    Type
+/usr/include/qt6/QtCore/qcoreevent.h:397:46: error: ‘ChildPolished’ was not declared in this scope
+  397 |     bool polished() const { return type() == ChildPolished; }
+      |                                              ^~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qcoreevent.h: In member function ‘bool QChildEvent::removed() const’:
+/usr/include/qt6/QtCore/qcoreevent.h:398:35: error: ‘type’ was not declared in this scope; did you mean ‘Type’?
+  398 |     bool removed() const { return type() == ChildRemoved; }
+      |                                   ^~~~
+      |                                   Type
+/usr/include/qt6/QtCore/qcoreevent.h:398:45: error: ‘ChildRemoved’ was not declared in this scope
+  398 |     bool removed() const { return type() == ChildRemoved; }
+      |                                             ^~~~~~~~~~~~
+/usr/include/qt6/QtCore/qcoreevent.h: At global scope:
+/usr/include/qt6/QtCore/qcoreevent.h:406:5: error: ‘QDynamicPropertyChangeEvent* QDynamicPropertyChangeEvent::clone() const’ marked ‘override’, but does not override
+  406 |     Q_DECL_EVENT_COMMON(QDynamicPropertyChangeEvent)
+      |     ^~~~~~~~~~~~~~~~~~~
+/usr/include/qt6/QtCore/qcoreevent.h:406:5: error: ‘QDynamicPropertyChangeEvent::~QDynamicPropertyChangeEvent()’ marked ‘override’, but does not override
+  406 |     Q_DECL_EVENT_COMMON(QDynamicPropertyChangeEvent)
+      |     ^~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/OpenSCADLibInternal.dir/build.make:3654: CMakeFiles/OpenSCADLibInternal.dir/src/gui/input/SpaceNavInputDriver.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/OpenSCADLibInternal.dir/all] Error 2
+make: *** [Makefile:166: all] Error 2
