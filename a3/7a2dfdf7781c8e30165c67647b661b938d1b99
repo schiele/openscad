@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3847-ga37a2dfdf
 system: rolling
 date: Wed Feb 11 08:20:09 AM CET 2026
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
