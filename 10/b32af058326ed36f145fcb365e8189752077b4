@@ -2,3 +2,4 @@ BUILD: openscad-2019.05-3872-g10b32af05
 system: rolling
 date: Sat Mar 28 12:58:48 PM CET 2026
 tasks: configure build install
+SUCCESS
