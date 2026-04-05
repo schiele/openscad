@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3890-g34f7a2ffd
 system: rolling
 date: Sun Apr  5 09:53:47 PM CEST 2026
-tasks: configure build[incomplete]
+tasks: configure build install[incomplete]
