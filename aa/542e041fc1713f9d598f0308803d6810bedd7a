@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-3900-gaa542e041
 system: rolling
 date: Thu Apr 16 07:54:41 PM CEST 2026
-tasks:[incomplete]
+tasks: configure[incomplete]
