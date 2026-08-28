@@ -1,4 +1,4 @@
 BUILD: openscad-2019.05-4032-g121b48e88
 system: rolling
 date: Fri Aug 28 08:57:22 AM CEST 2026
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
