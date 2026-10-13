@@ -1,4 +1,4 @@
 BUILD: openscad-2026.10-TEST3-4-g21780e098
 system: rolling
 date: Tue Oct 13 02:26:44 PM CEST 2026
-tasks: configure build[incomplete]
+tasks: configure build install[incomplete]
