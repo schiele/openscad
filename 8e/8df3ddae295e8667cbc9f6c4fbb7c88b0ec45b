@@ -1,4 +1,4 @@
 BUILD: openscad-2026.11-RC0-1-g8e8df3dda
 system: rolling
 date: Mon Nov  2 07:30:13 PM CET 2026
-tasks: configure[incomplete]
+tasks: configure build[incomplete]
